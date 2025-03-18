@@ -78,7 +78,7 @@ Your app will be live at: **`http://127.0.0.1:5000`** 🚀
 ## **📸 Screenshots**  
 
 ### 🔹 **Signup & Login Page**  
-![Signup Page](static/signup_preview.png)  
+![Signup Page](static/signup_preview..png)  
 
 ### 🔹 **Dashboard with User Info**  
 ![Dashboard](static/dashboard_preview.png)  
