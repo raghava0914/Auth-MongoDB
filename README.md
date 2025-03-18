@@ -118,5 +118,5 @@ This project is **open-source** under the **MIT License**.
 
 ## **📩 Contact**  
 💡 **Author:** K Ranga Raghava Varma  
-📧 Email: brahmajibrahma025@gmail.com  
+📧 Email: raghavavarma258@gmail.com  
 📍 Location: Medchal, Hyderabad  
