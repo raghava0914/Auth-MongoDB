@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center py-10">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-3xl">
+        <h2>Welcome, {{ user }}!</h2>
+        <p class="mt-6 text-center">
+            <a href="{{ url_for('logout') }}" 
+               class="inline-flex items-center px-6 py-3 text-white bg-gradient-to-r from-red-500 to-pink-500 rounded-full shadow-md 
+                      hover:from-red-600 hover:to-pink-600 transition-transform transform hover:scale-105">
+                🚪 Logout
+            </a>
+        </p>
+        
+        <h1 class="text-3xl font-semibold text-gray-700 text-center">Understanding MongoDB: A Comprehensive Guide</h1>
+        <p class="text-gray-600 mt-4">MongoDB is a popular NoSQL database known for its flexibility, scalability, and performance. Unlike traditional relational databases, MongoDB stores data in JSON-like documents, making it ideal for applications requiring rapid data access and complex queries.</p>
+        
+        <h2 class="text-2xl font-semibold text-gray-700 mt-6">Key Features of MongoDB</h2>
+        <ul class="list-disc pl-6 mt-2 text-gray-600">
+            <li><strong>Schema-less Data Model:</strong> MongoDB stores data in dynamic, JSON-like BSON documents, allowing flexible and evolving data structures.</li>
+            <li><strong>Scalability:</strong> Horizontal scaling using sharding enables MongoDB to handle large datasets efficiently.</li>
+            <li><strong>High Performance:</strong> Supports indexing, replication, and in-memory processing for faster query execution.</li>
+            <li><strong>Aggregation Framework:</strong> Provides powerful data processing and analytics capabilities.</li>
+            <li><strong>Replication:</strong> Ensures data redundancy and high availability through replica sets.</li>
+        </ul>
+        
+        <h2 class="text-2xl font-semibold text-gray-700 mt-6">Why Choose MongoDB?</h2>
+        <p class="text-gray-600 mt-2">MongoDB is widely used in modern web applications, big data, real-time analytics, and IoT due to its flexible schema, seamless horizontal scaling, and high performance.</p>
+        
+        <h2 class="text-2xl font-semibold text-gray-700 mt-6">How to Use MongoDB</h2>
+        <p class="text-gray-600 mt-2">To get started with MongoDB, follow these steps:</p>
+        <ol class="list-decimal pl-6 mt-2 text-gray-600">
+            <li>Install MongoDB on your system or use a cloud-based service like MongoDB Atlas.</li>
+            <li>Create a database and collections to store your data.</li>
+            <li>Use MongoDB Compass or the command-line interface to interact with your database.</li>
+            <li>Write queries using MongoDB's query language to insert, update, delete, and retrieve data.</li>
+        </ol>
+        
+        <h2 class="text-2xl font-semibold text-gray-700 mt-6">Common MongoDB Commands</h2>
+        <pre class="bg-gray-900 text-white p-4 rounded-lg mt-2 overflow-x-auto">
+# Connect to MongoDB
+mongo
+
+# Create a database
+use myDatabase
+
+# Create a collection
+ db.createCollection("users")
+
+# Insert data
+db.users.insertOne({name: "John Doe", age: 30, email: "john@example.com"})
+
+# Find data
+db.users.find()
+
+# Update data
+db.users.updateOne({name: "John Doe"}, {$set: {age: 31}})
+
+# Delete data
+db.users.deleteOne({name: "John Doe"})
+        </pre>
+        
+        <h2 class="text-2xl font-semibold text-gray-700 mt-6">Conclusion</h2>
+        <p class="text-gray-600 mt-2">MongoDB is a robust and scalable NoSQL database that provides great flexibility for developers working on high-performance applications. Its document-oriented model, powerful aggregation framework, and replication capabilities make it a go-to choice for many industries.</p>
+    </div>
+</body>
+</html>
