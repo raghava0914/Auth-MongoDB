@@ -34,8 +34,8 @@ A **modern user authentication system** with **MongoDB, Flask, and Tailwind CSS*
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/MongoDB-Blog-Dashboard.git
-cd MongoDB-Blog-Dashboard
+git clone https://github.com/raghava0914/Auth-MongoDB.git
+cd Auth-MongoDB
 ```
 
 ### **2️⃣ Create a Virtual Environment**  
