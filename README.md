@@ -1,7 +1,7 @@
 # **MongoDB Blog Dashboard** 🚀  
 A **modern user authentication system** with **MongoDB, Flask, and Tailwind CSS**, featuring a **secure signup/login system** and a **beautiful dashboard** with a MongoDB tutorial.  
 
-![Dashboard Preview](static/images/dashboard_preview.png)  
+![Dashboard Preview](static/dashboard_preview.png)  
 
 ## **📌 Features**  
 ✅ **User Authentication** – Secure signup & login using MongoDB  
